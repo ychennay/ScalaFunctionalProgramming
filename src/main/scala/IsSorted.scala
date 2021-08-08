@@ -9,7 +9,7 @@ Implemented isSorted, which checks with an Array[A] is sorted according to a giv
 def isSorted[A](as: Array[A], ordered: (A, A) => Boolean): Boolean
  */
 
-object is_sorted {
+object IsSorted {
 
   /*
   Implements a sorting function on an array of type T. Takes in an ordered sorting function

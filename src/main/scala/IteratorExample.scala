@@ -1,6 +1,6 @@
 package main.scala
 
-object iterator_example {
+object IteratorExample {
 
   def main(args: Array[String]): Unit = {
     val iterator = new IntIterator(5)

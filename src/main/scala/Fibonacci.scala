@@ -2,7 +2,7 @@ package main.scala
 
 import scala.annotation.tailrec
 
-object fibonacci {
+object Fibonacci {
 
   def main(args: Array[String]): Unit = {
     println(fibonacci(5))
