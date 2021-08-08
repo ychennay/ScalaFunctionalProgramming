@@ -57,4 +57,8 @@ object object_oriented_programming extends App {
   println(novel.isWrittenBy(author))
   println(novel.authorYear)
 
+  val counter = new Counter(2)
+  val newCounter = counter inc 1 // infix notation for calling method w/ one argument
+
+
 }
