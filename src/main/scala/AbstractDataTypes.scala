@@ -33,7 +33,10 @@ object AbstractDataTypes extends App {
     override val businessType: String = "global tech"
     override val isPublic: Boolean = true
 
-    override def acquire(anotherCompany: Company): Company = ???
+    override def acquire(anotherCompany: Company): Company = {
+
+      new LargeTechCompany(companyName, this.companyNetWorth + anotherCompany.netWorth)
+    }
 
     override def fileForIPO(): Unit = {
       print(s"The company $name is filing for IPO!")
